@@ -1,0 +1,45 @@
+name: emplake
+description: "Emplake — jogo de expressões matemáticas com os dígitos de uma placa. Trabalho de DDM (UFSCar)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # Estado e rotas
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.6.0
+
+  # Firebase (plano Spark)
+  firebase_core: any
+  firebase_auth: any
+  cloud_firestore: any
+  firebase_ui_auth: any
+  firebase_ui_oauth_google: any
+  firebase_ui_localizations: any
+
+  # Interface
+  curved_navigation_bar: ^1.0.6
+  flutter_math_fork: ^0.7.2
+  loading_animation_widget: ^1.3.0
+  google_fonts: ^6.2.1
+
+  # Persistência local e som
+  shared_preferences: ^2.3.3
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true

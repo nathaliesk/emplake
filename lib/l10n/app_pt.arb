@@ -1,0 +1,166 @@
+{
+  "@@locale": "pt",
+  "appTitle": "Emplake",
+  "loginTagline": "Monte uma igualdade verdadeira com os 4 dígitos da placa.",
+  "loginSubtitle": "Entre para salvar sua pontuação e as placas que você já resolveu.",
+  "teamMember": "Integrante do grupo",
+  "courseInfo": "Desenvolvimento para Dispositivos Móveis — UFSCar",
+  "language": "Idioma",
+  "portuguese": "Português",
+  "english": "Inglês",
+  "navGame": "Jogo",
+  "navHistory": "Histórico",
+  "navRanking": "Ranking",
+  "navHelp": "Ajuda",
+  "navSettings": "Configurações",
+  "levelLabel": "Nível",
+  "levelEasy": "Fácil",
+  "levelIntermediate": "Intermediário",
+  "levelAdvanced": "Avançado",
+  "levelHard": "Difícil",
+  "scoreLabel": "Pontos",
+  "timeLabel": "Tempo",
+  "plateBand": "BRASIL",
+  "verify": "Verificar",
+  "clear": "Limpar",
+  "skip": "Pular",
+  "nextPlate": "Próxima placa",
+  "slotHint": "Toque numa fenda (entre ou ao lado dos dígitos) para abrir a roda de operadores.",
+  "slotSemantics": "Fenda {index}",
+  "@slotSemantics": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "moveEqualsLeft": "Mover o = para a esquerda",
+  "moveEqualsRight": "Mover o = para a direita",
+  "yourFormula": "Sua fórmula",
+  "latexLabel": "Renderização em LaTeX",
+  "successTitle": "Placa emplacada!",
+  "successMessage": "Correto! Você ganhou {points} pontos.",
+  "@successMessage": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "skippedMessage": "Placa pulada. Sem problema, vem outra!",
+  "wheelTitle": "Roda de operadores",
+  "wheelBackspace": "Apagar o último",
+  "wheelClear": "Esvaziar fenda",
+  "wheelDone": "Pronto",
+  "wheelEmpty": "fenda vazia",
+  "loadingPlate": "Procurando uma placa que você ainda não resolveu…",
+  "allSolved": "Uau! Não encontramos mais placas novas neste nível. Tente outro nível.",
+  "soundOn": "Som ligado (toque para desligar)",
+  "soundOff": "Som desligado (toque para ligar)",
+  "loadError": "Não foi possível carregar os dados.",
+  "retry": "Tentar de novo",
+  "saveError": "Acertou, mas não deu para salvar na nuvem. Verifique a conexão.",
+  "historyTitle": "Seu histórico",
+  "totalScore": "Pontuação total",
+  "solvedCount": "{count, plural, =0{Nenhuma placa resolvida} =1{1 placa resolvida} other{{count} placas resolvidas}}",
+  "@solvedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "solvedByLevel": "Por nível",
+  "recentSolved": "Últimas placas resolvidas",
+  "noSolvedYet": "Você ainda não resolveu nenhuma placa. Bora jogar!",
+  "solvedIn": "{level} · {seconds} s",
+  "@solvedIn": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "rankingTitle": "Ranking geral",
+  "rankingEmpty": "Ninguém pontuou ainda. Seja o primeiro!",
+  "you": "você",
+  "anonymousPlayer": "Jogador anônimo",
+  "points": "{points} pts",
+  "@points": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsTitle": "Configurações",
+  "appearance": "Aparência",
+  "themeMode": "Tema",
+  "themeSystem": "Do aparelho",
+  "themeLight": "Claro",
+  "themeDark": "Escuro",
+  "fontSize": "Tamanho da fonte",
+  "fontFamily": "Tipo da fonte",
+  "seedColor": "Cor semente do tema",
+  "presetThemes": "Temas prontos",
+  "presetOcean": "Oceano",
+  "presetForest": "Floresta",
+  "presetSunset": "Pôr do sol",
+  "presetGrape": "Uva",
+  "presetClassic": "Clássico",
+  "presetTerminal": "Terminal",
+  "previewText": "Exemplo: √(8 + 1) = 3¹",
+  "sound": "Efeitos sonoros",
+  "soundDescription": "Desligado por padrão. Ligue se quiser ouvir os acertos e erros.",
+  "languageSetting": "Idioma do aplicativo",
+  "account": "Conta",
+  "signOut": "Sair",
+  "resetSettings": "Restaurar padrão",
+  "helpTitle": "Como jogar",
+  "helpGoal": "A placa mostra 4 dígitos. Sem mudar a ordem deles, insira operadores e o sinal de = para formar uma igualdade verdadeira.",
+  "helpSlots": "Toque numa fenda (os espaços entre e ao lado dos dígitos) para abrir a roda de operadores. Cada toque na roda acrescenta um operador naquela fenda.",
+  "helpEquals": "O = já está na placa: use as setas ao lado dele para mudar a posição.",
+  "helpJoin": "Dígitos vizinhos sem operador entre eles formam um número só (2 e 8 viram 28).",
+  "helpDivision": "Só o nível Fácil aceita divisões e raízes com resultado não inteiro.",
+  "helpOperators": "Operadores do nível {level}:",
+  "@helpOperators": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "helpExample": "Exemplo com a placa 8 1 3 1:",
+  "helpSkip": "Achou difícil? Use Pular para trocar de placa. Cada acerto vale mais pontos nos níveis mais difíceis.",
+  "close": "Fechar",
+  "errMissingEquals": "Falta o sinal de =.",
+  "errMultipleEquals": "Use apenas um sinal de =.",
+  "errEmptySide": "Um dos lados do = está vazio.",
+  "errUnexpectedToken": "Tem um operador fora do lugar.",
+  "errUnexpectedEnd": "A expressão terminou no meio de uma operação.",
+  "errUnbalanced": "Parênteses ou barras não estão fechando direito.",
+  "errOperatorNotAllowed": "Esse operador não existe neste nível.",
+  "errDivisionByZero": "Divisão por zero não vale!",
+  "errNonIntegerDivision": "Neste nível a divisão precisa dar um número inteiro.",
+  "errNonIntegerResult": "Neste nível o resultado precisa ser inteiro.",
+  "errInexactRoot": "Neste nível a raiz precisa ser exata.",
+  "errNegativeRoot": "Não existe raiz quadrada real de número negativo.",
+  "errInvalidFactorial": "Fatorial só de inteiros maiores ou iguais a zero.",
+  "errFactorialTooLarge": "Fatorial grande demais (máximo 20!).",
+  "errInvalidExponent": "Esse expoente não é permitido aqui.",
+  "errNumberTooLarge": "O número ficou grande demais.",
+  "errNotEqual": "Os lados não são iguais: {left} ≠ {right}",
+  "@errNotEqual": {
+    "placeholders": {
+      "left": {
+        "type": "String"
+      },
+      "right": {
+        "type": "String"
+      }
+    }
+  }
+}
